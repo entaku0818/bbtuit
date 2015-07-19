@@ -69,14 +69,14 @@
 class DATABASE_CONFIG {
 
 	public $default = array(
-		'datasource' => 'Database/futsal',
+		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'entaku19890818',
-		'password' => '',
+		'host' => '127.0.0.1',
+		'login' => 'futsal',
+		'password' => 'futsal',
 		'database' => 'futsal',
 		'prefix' => '',
-		//'encoding' => 'utf8',
+		'encoding' => 'utf8',
 	);
 
 	public $test = array(
