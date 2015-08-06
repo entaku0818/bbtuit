@@ -1,0 +1,2553 @@
+2015-07-26 07:30:10 Error: Fatal Error (1): Class '　　Router' not found in [/home/ubuntu/workspace/app/Config/routes.php, line 28]
+2015-07-26 07:30:10 Error: [FatalErrorException] Class '　　Router' not found
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class '??????Ro...', '/home/ubuntu/wo...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class '??????Ro...', '/home/ubuntu/wo...', 28, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class '??????Ro...', '/home/ubuntu/wo...', 28, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-26 07:30:57 Error: Fatal Error (1): Class '　　Router' not found in [/home/ubuntu/workspace/app/Config/routes.php, line 28]
+2015-07-26 07:30:57 Error: [FatalErrorException] Class '　　Router' not found
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class '??????Ro...', '/home/ubuntu/wo...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class '??????Ro...', '/home/ubuntu/wo...', 28, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class '??????Ro...', '/home/ubuntu/wo...', 28, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-26 08:26:33 Error: [MissingLayoutException] Layout file "Layouts/sampleLayout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/sampleLayout.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(514): View->_getLayoutFileName('sampleLayout')
+#1 /home/ubuntu/workspace/lib/Cake/View/View.php(481): View->renderLayout('', 'sampleLayout')
+#2 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest))
+#5 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /home/ubuntu/workspace/index.php(41): require('/home/ubuntu/wo...')
+#7 {main}
+2015-07-26 09:51:01 Error: [MissingLayoutException] Layout file "Layouts/sampleLayou.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/sampleLayou.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(514): View->_getLayoutFileName('sampleLayou')
+#1 /home/ubuntu/workspace/lib/Cake/View/View.php(481): View->renderLayout('', 'sampleLayou')
+#2 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest))
+#5 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /home/ubuntu/workspace/index.php(41): require('/home/ubuntu/wo...')
+#7 {main}
+2015-07-26 09:51:15 Error: [MissingLayoutException] Layout file "Layouts/sampleLayou.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/sampleLayou.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(514): View->_getLayoutFileName('sampleLayou')
+#1 /home/ubuntu/workspace/lib/Cake/View/View.php(481): View->renderLayout('', 'sampleLayou')
+#2 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest))
+#5 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /home/ubuntu/workspace/index.php(41): require('/home/ubuntu/wo...')
+#7 {main}
+2015-07-26 12:01:12 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/home/ubuntu/workspace/app/View/Appointments/index.ctp, line 54]
+2015-07-26 12:01:12 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 54, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 54, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-27 09:42:47 Error: [NotFoundException] Invalid appointment
+Request URL: /
+Stack Trace:
+#0 [internal function]: AppointmentsController->view('view')
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AppointmentsController), Array)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(41): require('/home/ubuntu/wo...')
+#6 {main}
+2015-07-27 10:55:28 Error: [MissingViewException] View file "Appointments/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Appointments/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(41): require('/home/ubuntu/wo...')
+#6 {main}
+2015-07-27 11:03:59 Error: [MissingViewException] View file "Appointments/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Appointments/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 /home/ubuntu/workspace/index.php(41): require('/home/ubuntu/wo...')
+#6 {main}
+2015-07-30 07:21:17 Error: [MissingActionException] Action AppController::appointments() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'appointments',
+)
+Request URL: /app/appointments
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:21:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-30 07:21:25 Error: [MissingActionException] Action AppController::appointments() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'appointments',
+)
+Request URL: /app/appointments
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:21:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-30 07:23:17 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/css/base-style.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:23:23 Error: [MissingActionException] Action AppointmentsController:::action() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppointmentsController',
+  'action' => ':action',
+)
+Request URL: /appointments/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:23:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-30 07:23:54 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/css/base-style.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:23:56 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/css/base-style.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:23:58 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/css/base-style.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:24:03 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/css/base-style.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:24:18 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/css/base-style.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:24:20 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/css/base-style.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:24:21 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/css/base-style.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:24:43 Error: Fatal Error (4): syntax error, unexpected ',', expecting ')' in [/home/ubuntu/workspace/app/Config/routes.php, line 28]
+2015-07-30 07:24:43 Error: [FatalErrorException] syntax error, unexpected ',', expecting ')'
+Request URL: /appointments/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 28, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 28, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-30 07:24:44 Error: Fatal Error (4): syntax error, unexpected ',', expecting ')' in [/home/ubuntu/workspace/app/Config/routes.php, line 28]
+2015-07-30 07:24:44 Error: [FatalErrorException] syntax error, unexpected ',', expecting ')'
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 28, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 28, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-30 07:24:50 Error: Fatal Error (4): syntax error, unexpected ',', expecting ')' in [/home/ubuntu/workspace/app/Config/routes.php, line 28]
+2015-07-30 07:24:50 Error: [FatalErrorException] syntax error, unexpected ',', expecting ')'
+Request URL: /appointments/
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 28, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 28, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-30 07:24:50 Error: Fatal Error (4): syntax error, unexpected ',', expecting ')' in [/home/ubuntu/workspace/app/Config/routes.php, line 28]
+2015-07-30 07:24:50 Error: [FatalErrorException] syntax error, unexpected ',', expecting ')'
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 28, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 28, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-30 07:25:04 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/ubuntu/workspace/app/Config/routes.php, line 28]
+2015-07-30 07:25:04 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /appointments/
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 28, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 28, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-30 07:25:05 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/ubuntu/workspace/app/Config/routes.php, line 28]
+2015-07-30 07:25:05 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 28)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 28, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 28, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-30 07:25:16 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/css/base-style.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:25:19 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/css/base-style.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:25:21 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/css/base-style.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:25:23 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/css/base-style.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:25:56 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/css/base-style.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:26:02 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/css/base-style.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:26:05 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/css/base-style.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:26:08 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /app/webroot/css/base-style.css
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-30 07:51:04 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-30 07:51:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-30 16:54:52 Error: [NotFoundException] Invalid appointment
+Request URL: /appointments/view
+Stack Trace:
+#0 [internal function]: AppointmentsController->view()
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AppointmentsController), Array)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-07-30 16:54:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-01 07:17:51 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-01 07:17:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:27:43 Error: [MissingControllerException] Controller class Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:27:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:29:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:30:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:30:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:38:06 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 14]
+2015-08-02 01:38:06 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/index
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 01:38:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:38:13 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 14]
+2015-08-02 01:38:13 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 01:38:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:38:17 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 14]
+2015-08-02 01:38:17 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 01:38:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:39:52 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 14]
+2015-08-02 01:39:52 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 01:39:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:41:06 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 14]
+2015-08-02 01:41:06 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 01:41:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:41:12 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 14]
+2015-08-02 01:41:12 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 01:41:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:42:38 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 14]
+2015-08-02 01:42:38 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 01:42:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:44:16 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 14]
+2015-08-02 01:44:16 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 01:44:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:45:25 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 19]
+2015-08-02 01:45:25 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 19, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 19, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 01:45:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:46:01 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users/
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-02 01:46:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:47:00 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 19]
+2015-08-02 01:47:00 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 19, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 19, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 01:47:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:47:34 Error: Fatal Error (1): Class 'AuthComponent' not found in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 67]
+2015-08-02 01:47:34 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/home/ubuntu/wo...', 67)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/home/ubuntu/wo...', 67, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/home/ubuntu/wo...', 67, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 01:47:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:54:47 Error: Fatal Error (64): Cannot redeclare UsersController::$components in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 8]
+2015-08-02 01:54:47 Error: [FatalErrorException] Cannot redeclare UsersController::$components
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ubuntu/wo...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ubuntu/wo...', 8, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ubuntu/wo...', 8, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 01:54:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 01:55:16 Error: Fatal Error (64): Cannot redeclare UsersController::$components in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 8]
+2015-08-02 01:55:16 Error: [FatalErrorException] Cannot redeclare UsersController::$components
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ubuntu/wo...', 8)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ubuntu/wo...', 8, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ubuntu/wo...', 8, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 01:55:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 02:03:32 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 69]
+2015-08-02 02:03:32 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 02:03:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 09:16:15 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users/
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-02 09:16:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 09:16:55 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 69]
+2015-08-02 09:16:55 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 09:16:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 09:18:54 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 69]
+2015-08-02 09:18:54 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 09:18:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 09:23:21 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 69]
+2015-08-02 09:23:21 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 09:23:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 09:25:05 Error: Fatal Error (1): Call to a member function save() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 70]
+2015-08-02 09:25:05 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 70)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 70, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 70, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 09:25:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 09:25:40 Error: Fatal Error (1): Call to a member function save() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 70]
+2015-08-02 09:25:40 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 70)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 70, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 70, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 09:25:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 09:25:52 Error: Fatal Error (1): Call to a member function save() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 70]
+2015-08-02 09:25:52 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 70)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 70, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 70, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 09:25:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 09:26:03 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 69]
+2015-08-02 09:26:03 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 09:26:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 09:37:17 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ubuntu/workspace/app/Controller/AppointmentsController.php, line 17]
+2015-08-02 09:37:17 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /appointments/
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 17, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 17, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 09:37:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 09:37:42 Error: Fatal Error (1): Call to a member function user() on a non-object in [/home/ubuntu/workspace/app/Controller/AppointmentsController.php, line 37]
+2015-08-02 09:37:42 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /appointments/
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 37, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 37, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 09:37:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 09:38:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 09:39:19 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 69]
+2015-08-02 09:39:19 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 09:39:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 09:40:15 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 69]
+2015-08-02 09:40:15 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 09:40:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 09:47:04 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 69]
+2015-08-02 09:47:04 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 09:47:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 09:55:02 Error: [MissingActionException] Action UsersController::add2() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add2',
+)
+Request URL: /users/add2
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-08-02 09:55:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 09:59:44 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 69]
+2015-08-02 09:59:44 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 09:59:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 10:00:15 Error: [MissingViewException] View file "Users/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/add.ctp',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-02 10:00:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 10:00:46 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 69]
+2015-08-02 10:00:46 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 69, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 10:00:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 10:47:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 10:47:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 10:48:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 10:48:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 10:48:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 10:48:50 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 72]
+2015-08-02 10:48:50 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 72)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 72, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 72, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-02 10:48:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 11:25:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 11:25:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 11:28:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 11:32:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 11:32:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 11:32:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 11:39:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 11:48:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 11:48:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 11:48:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 11:50:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 11:50:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 11:50:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 12:14:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-02 12:14:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-03 22:05:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 05:52:09 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Connection refused',
+  'enabled' => true,
+)
+Request URL: /appointments/
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/ubuntu/workspace/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#3 /home/ubuntu/workspace/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3644): Model->setSource('appointments')
+#5 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#6 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#7 /home/ubuntu/workspace/app/Controller/AppointmentsController.php(35): Model->find('all', Array)
+#8 [internal function]: AppointmentsController->index()
+#9 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AppointmentsController), Array)
+#10 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest))
+#12 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-08-06 05:52:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 05:53:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 05:53:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 05:53:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 05:53:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 05:58:56 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 83]
+2015-08-06 05:58:56 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 83)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 83, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 83, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 05:58:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 06:01:54 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 83]
+2015-08-06 06:01:54 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 83)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 83, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 83, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 06:01:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 07:58:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 08:18:15 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 83]
+2015-08-06 08:18:15 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 83)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 83, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 83, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 08:18:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 08:30:56 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 83]
+2015-08-06 08:30:56 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 83)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 83, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 83, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 08:30:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 08:31:13 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 83]
+2015-08-06 08:31:13 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 83)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 83, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 83, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 08:31:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 08:31:30 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 83]
+2015-08-06 08:31:30 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 83)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 83, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 83, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 08:31:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 08:32:28 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 71]
+2015-08-06 08:32:28 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 08:32:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 08:41:16 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 71]
+2015-08-06 08:41:16 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 08:41:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 08:47:01 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 71]
+2015-08-06 08:47:01 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 08:47:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 09:19:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 09:19:25 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 71]
+2015-08-06 09:19:25 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 09:19:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 09:19:32 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 71]
+2015-08-06 09:19:32 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 09:19:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 09:22:22 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 71]
+2015-08-06 09:22:22 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 09:22:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 09:22:40 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 71]
+2015-08-06 09:22:40 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 09:22:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 09:25:17 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 71]
+2015-08-06 09:25:17 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 09:25:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 09:25:53 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 71]
+2015-08-06 09:25:53 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 09:25:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 09:27:33 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 71]
+2015-08-06 09:27:33 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 09:27:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 09:31:28 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 71]
+2015-08-06 09:31:28 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 09:31:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 09:42:59 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 71]
+2015-08-06 09:42:59 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 71, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 09:42:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 09:49:58 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 14]
+2015-08-06 09:49:58 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 14, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 09:49:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 09:51:25 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 15]
+2015-08-06 09:51:25 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 15, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 15, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 09:51:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 09:57:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 09:57:40 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 64]
+2015-08-06 09:57:40 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 64)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 64, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 64, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 09:57:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 09:59:25 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 65]
+2015-08-06 09:59:25 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 65, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 65, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 09:59:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:00:00 Error: [MissingComponentException] Component class createComponent could not be found.
+Exception Attributes: array (
+  'class' => 'createComponent',
+  'plugin' => false,
+)
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('create', Array)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-06 10:00:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:05:59 Error: [MissingComponentException] Component class createComponent could not be found.
+Exception Attributes: array (
+  'class' => 'createComponent',
+  'plugin' => false,
+)
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('create', Array)
+#1 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-08-06 10:06:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:06:38 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 65]
+2015-08-06 10:06:38 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 65, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 65, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 10:06:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:06:47 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 65]
+2015-08-06 10:06:47 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 65, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 65, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 10:06:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:07:13 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 65]
+2015-08-06 10:07:13 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 65, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 65, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 10:07:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:08:34 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 65]
+2015-08-06 10:08:34 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 65, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 65, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 10:08:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:08:51 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 65]
+2015-08-06 10:08:51 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 65)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 65, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 65, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 10:08:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:14:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:14:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:14:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:17:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:18:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:18:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:24:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:24:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:24:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:24:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:24:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:24:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:24:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:35:21 Error: Fatal Error (4): syntax error, unexpected ''Session'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 9]
+2015-08-06 10:35:21 Error: [FatalErrorException] syntax error, unexpected ''Session'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 9, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 9, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 10:35:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:36:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:36:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:36:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:38:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:38:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:39:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:39:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:39:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 10:39:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 11:10:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 11:10:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 11:10:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 11:10:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 11:10:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 11:10:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 11:10:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 11:10:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 11:11:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 11:11:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:34:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:35:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:36:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:36:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:36:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:37:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:37:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:38:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:38:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:38:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:38:27 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:40:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:42:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:52:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:52:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:53:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:53:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:53:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:53:49 Error: [MissingTableException] Table times for model Time was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'times',
+  'class' => 'Time',
+  'ds' => 'default',
+)
+Request URL: /appointments/add/20150806
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3644): Model->setSource('times')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#2 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2994): Model->_readDataSource('list', Array)
+#3 /home/ubuntu/workspace/app/Controller/AppointmentsController.php(78): Model->find('list', Array)
+#4 [internal function]: AppointmentsController->add('20150806')
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AppointmentsController), Array)
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest))
+#8 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-08-06 14:53:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:54:26 Error: Fatal Error (1): Call to a member function exists() on a non-object in [/home/ubuntu/workspace/app/Controller/UsersController.php, line 43]
+2015-08-06 14:54:26 Error: [FatalErrorException] Call to a member function exists() on a non-object
+Request URL: /users/view/1
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ubuntu/wo...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ubuntu/wo...', 43, Array)
+#2 /home/ubuntu/workspace/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ubuntu/wo...', 43, Array)
+#3 /home/ubuntu/workspace/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-08-06 14:54:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:58:38 Error: [MissingTableException] Table times for model Time was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'times',
+  'class' => 'Time',
+  'ds' => 'default',
+)
+Request URL: /appointments/add/20150810
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3644): Model->setSource('times')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#2 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2994): Model->_readDataSource('list', Array)
+#3 /home/ubuntu/workspace/app/Controller/AppointmentsController.php(78): Model->find('list', Array)
+#4 [internal function]: AppointmentsController->add('20150810')
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AppointmentsController), Array)
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest))
+#8 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-08-06 14:58:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-08-06 14:58:53 Error: [MissingTableException] Table times for model Time was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'times',
+  'class' => 'Time',
+  'ds' => 'default',
+)
+Request URL: /appointments/add/20150810
+Stack Trace:
+#0 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3644): Model->setSource('times')
+#1 /home/ubuntu/workspace/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#2 /home/ubuntu/workspace/lib/Cake/Model/Model.php(2994): Model->_readDataSource('list', Array)
+#3 /home/ubuntu/workspace/app/Controller/AppointmentsController.php(78): Model->find('list', Array)
+#4 [internal function]: AppointmentsController->add('20150810')
+#5 /home/ubuntu/workspace/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(AppointmentsController), Array)
+#6 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppointmentsController), Object(CakeRequest))
+#8 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-08-06 14:58:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 /home/ubuntu/workspace/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

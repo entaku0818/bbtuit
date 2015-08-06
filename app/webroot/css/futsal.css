@@ -1,0 +1,80 @@
+#content {
+	min-width: 800px;
+}
+ul.timeline {
+	margin-top: 20px;
+	list-style-type: none;
+}
+ul.timeline li {
+	padding-top: 10px;
+	margin-top: 1px; margin-left: 0px; margin-right: 0px;
+	width: 60px; height: 30px;
+	text-align: center; background: #ccc; cursor: default;
+}
+.appo-area1, .appo-area2, .appo-area3 {
+	margin-top: -450px;
+	width: 100px; height: 450px;
+	background: #eee;
+}
+.appo-area1 {
+	margin-left: 80px;
+}
+.appo-area2 {
+	margin-left: 200px;
+}
+.appo-area3 {
+	margin-left: 320px;
+}
+.appo-area-p1, .appo-area-p2, .appo-area-p3 {
+	position: absolute;
+	margin-top: -470px;
+}
+.appo-area-p1 {
+	margin-left: 110px;
+}
+.appo-area-p2 {
+	margin-left: 230px;
+}
+.appo-area-p3 {
+	margin-left: 350px;
+}
+.appo09, .appo10, .appo11, .appo12, .appo13,
+.appo14, .appo15, .appo16, .appo17, .appo18 {
+	position: absolute;
+	padding-top: 0px; margin-left: 10px;
+	width: 80px; height: 30px;
+	text-align: center; background: gray;
+}
+.me {
+	background: blue;
+}
+.appo09 {
+	margin-left: 10px;
+}
+.appo10 {
+	margin-top: 41px;
+}
+.appo11 {
+	margin-top: 82px;
+}
+.appo12 {
+	margin-top: 123px;
+}
+.appo13 {
+	margin-top: 164px;
+}
+.appo14 {
+	margin-top: 205px;
+}
+.appo15 {
+	margin-top: 246px;
+}
+.appo16 {
+	margin-top: 287px;
+}
+.appo17 {
+	margin-top: 328px;
+}
+.appo18 {
+	margin-top: 369px;
+}
