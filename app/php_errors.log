@@ -532,3 +532,160 @@
 [06-Aug-2015 14:54:26 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
 [06-Aug-2015 14:54:26 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
 [06-Aug-2015 14:54:26 UTC] PHP   6. UsersController->view() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[06-Aug-2015 15:21:00 UTC] PHP Fatal error:  Call to a member function exists() on a non-object in /home/ubuntu/workspace/app/Controller/UsersController.php on line 43
+[06-Aug-2015 15:21:00 UTC] PHP Stack trace:
+[06-Aug-2015 15:21:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[06-Aug-2015 15:21:00 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[06-Aug-2015 15:21:00 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[06-Aug-2015 15:21:00 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[06-Aug-2015 15:21:00 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[06-Aug-2015 15:21:00 UTC] PHP   6. UsersController->view() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[06-Aug-2015 15:35:21 UTC] PHP Fatal error:  Call to a member function exists() on a non-object in /home/ubuntu/workspace/app/Controller/UsersController.php on line 43
+[06-Aug-2015 15:35:21 UTC] PHP Stack trace:
+[06-Aug-2015 15:35:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[06-Aug-2015 15:35:21 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[06-Aug-2015 15:35:21 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[06-Aug-2015 15:35:21 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[06-Aug-2015 15:35:21 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[06-Aug-2015 15:35:21 UTC] PHP   6. UsersController->view() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 06:22:16 UTC] PHP Fatal error:  Call to a member function exists() on a non-object in /home/ubuntu/workspace/app/Controller/UsersController.php on line 43
+[08-Aug-2015 06:22:16 UTC] PHP Stack trace:
+[08-Aug-2015 06:22:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[08-Aug-2015 06:22:16 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[08-Aug-2015 06:22:16 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[08-Aug-2015 06:22:16 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[08-Aug-2015 06:22:16 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 06:22:16 UTC] PHP   6. UsersController->view() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 06:47:31 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ',' or ';' in /home/ubuntu/workspace/app/View/Courts/add.ctp on line 6
+[08-Aug-2015 06:47:31 UTC] PHP Stack trace:
+[08-Aug-2015 06:47:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[08-Aug-2015 06:47:31 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[08-Aug-2015 06:47:31 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[08-Aug-2015 06:47:31 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[08-Aug-2015 06:47:31 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[08-Aug-2015 06:47:31 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[08-Aug-2015 06:47:31 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[08-Aug-2015 07:06:46 UTC] PHP Fatal error:  Call to a member function login() on a non-object in /home/ubuntu/workspace/app/Controller/CourtsController.php on line 67
+[08-Aug-2015 07:06:46 UTC] PHP Stack trace:
+[08-Aug-2015 07:06:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[08-Aug-2015 07:06:46 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[08-Aug-2015 07:06:46 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[08-Aug-2015 07:06:46 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[08-Aug-2015 07:06:46 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 07:06:46 UTC] PHP   6. CourtsController->login() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 07:07:38 UTC] PHP Fatal error:  Call to a member function login() on a non-object in /home/ubuntu/workspace/app/Controller/CourtsController.php on line 67
+[08-Aug-2015 07:07:38 UTC] PHP Stack trace:
+[08-Aug-2015 07:07:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[08-Aug-2015 07:07:38 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[08-Aug-2015 07:07:38 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[08-Aug-2015 07:07:38 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[08-Aug-2015 07:07:38 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 07:07:38 UTC] PHP   6. CourtsController->login() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 07:08:21 UTC] PHP Fatal error:  Call to a member function login() on a non-object in /home/ubuntu/workspace/app/Controller/CourtsController.php on line 67
+[08-Aug-2015 07:08:21 UTC] PHP Stack trace:
+[08-Aug-2015 07:08:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[08-Aug-2015 07:08:21 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[08-Aug-2015 07:08:21 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[08-Aug-2015 07:08:21 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[08-Aug-2015 07:08:21 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 07:08:21 UTC] PHP   6. CourtsController->login() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 07:09:51 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/ubuntu/workspace/app/Controller/CourtsController.php on line 22
+[08-Aug-2015 07:09:51 UTC] PHP Stack trace:
+[08-Aug-2015 07:09:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[08-Aug-2015 07:09:51 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[08-Aug-2015 07:09:51 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[08-Aug-2015 07:09:51 UTC] PHP   4. Controller->startupProcess() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:189
+[08-Aug-2015 07:09:51 UTC] PHP   5. CakeEventManager->dispatch() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:676
+[08-Aug-2015 07:09:51 UTC] PHP   6. call_user_func:{/home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:243}() /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:243
+[08-Aug-2015 07:09:51 UTC] PHP   7. CourtsController->beforeFilter() /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:243
+[08-Aug-2015 07:10:09 UTC] PHP Fatal error:  Call to a member function allow() on a non-object in /home/ubuntu/workspace/app/Controller/CourtsController.php on line 22
+[08-Aug-2015 07:10:09 UTC] PHP Stack trace:
+[08-Aug-2015 07:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[08-Aug-2015 07:10:09 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[08-Aug-2015 07:10:09 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[08-Aug-2015 07:10:09 UTC] PHP   4. Controller->startupProcess() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:189
+[08-Aug-2015 07:10:09 UTC] PHP   5. CakeEventManager->dispatch() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:676
+[08-Aug-2015 07:10:09 UTC] PHP   6. call_user_func:{/home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:243}() /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:243
+[08-Aug-2015 07:10:09 UTC] PHP   7. CourtsController->beforeFilter() /home/ubuntu/workspace/lib/Cake/Event/CakeEventManager.php:243
+[08-Aug-2015 07:46:28 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/ubuntu/workspace/app/Controller/AppointmentsController.php on line 88
+[08-Aug-2015 07:46:28 UTC] PHP Stack trace:
+[08-Aug-2015 07:46:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[08-Aug-2015 07:46:28 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[08-Aug-2015 07:46:28 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[08-Aug-2015 07:46:28 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[08-Aug-2015 07:46:28 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 07:46:28 UTC] PHP   6. AppointmentsController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 07:46:58 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/ubuntu/workspace/app/Controller/AppointmentsController.php on line 88
+[08-Aug-2015 07:46:58 UTC] PHP Stack trace:
+[08-Aug-2015 07:46:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[08-Aug-2015 07:46:58 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[08-Aug-2015 07:46:58 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[08-Aug-2015 07:46:58 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[08-Aug-2015 07:46:58 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 07:46:58 UTC] PHP   6. AppointmentsController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 07:47:36 UTC] PHP Fatal error:  Call to a member function find() on a non-object in /home/ubuntu/workspace/app/Controller/AppointmentsController.php on line 88
+[08-Aug-2015 07:47:36 UTC] PHP Stack trace:
+[08-Aug-2015 07:47:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[08-Aug-2015 07:47:36 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[08-Aug-2015 07:47:36 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[08-Aug-2015 07:47:36 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[08-Aug-2015 07:47:36 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 07:47:36 UTC] PHP   6. AppointmentsController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 07:50:21 UTC] PHP Parse error:  syntax error, unexpected ''after'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/app/View/Appointments/add.ctp on line 26
+[08-Aug-2015 07:50:21 UTC] PHP Stack trace:
+[08-Aug-2015 07:50:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[08-Aug-2015 07:50:21 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[08-Aug-2015 07:50:21 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[08-Aug-2015 07:50:21 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[08-Aug-2015 07:50:21 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[08-Aug-2015 07:50:21 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[08-Aug-2015 07:50:21 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[08-Aug-2015 07:50:32 UTC] PHP Parse error:  syntax error, unexpected ''after'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/app/View/Appointments/add.ctp on line 26
+[08-Aug-2015 07:50:32 UTC] PHP Stack trace:
+[08-Aug-2015 07:50:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[08-Aug-2015 07:50:32 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[08-Aug-2015 07:50:32 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[08-Aug-2015 07:50:32 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[08-Aug-2015 07:50:32 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[08-Aug-2015 07:50:32 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[08-Aug-2015 07:50:32 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[08-Aug-2015 08:23:48 UTC] PHP Fatal error:  Call to a member function exists() on a non-object in /home/ubuntu/workspace/app/Controller/UsersController.php on line 43
+[08-Aug-2015 08:23:48 UTC] PHP Stack trace:
+[08-Aug-2015 08:23:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[08-Aug-2015 08:23:48 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[08-Aug-2015 08:23:48 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[08-Aug-2015 08:23:48 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[08-Aug-2015 08:23:48 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 08:23:48 UTC] PHP   6. UsersController->view() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 15:06:53 UTC] PHP Fatal error:  Call to a member function exists() on a non-object in /home/ubuntu/workspace/app/Controller/UsersController.php on line 43
+[08-Aug-2015 15:06:53 UTC] PHP Stack trace:
+[08-Aug-2015 15:06:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[08-Aug-2015 15:06:53 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[08-Aug-2015 15:06:53 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[08-Aug-2015 15:06:53 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[08-Aug-2015 15:06:53 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 15:06:53 UTC] PHP   6. UsersController->view() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 15:11:31 UTC] PHP Fatal error:  Call to a member function exists() on a non-object in /home/ubuntu/workspace/app/Controller/UsersController.php on line 43
+[08-Aug-2015 15:11:31 UTC] PHP Stack trace:
+[08-Aug-2015 15:11:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[08-Aug-2015 15:11:31 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[08-Aug-2015 15:11:31 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[08-Aug-2015 15:11:31 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[08-Aug-2015 15:11:31 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[08-Aug-2015 15:11:31 UTC] PHP   6. UsersController->view() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[09-Aug-2015 11:28:02 UTC] PHP Fatal error:  Call to a member function exists() on a non-object in /home/ubuntu/workspace/app/Controller/UsersController.php on line 43
+[09-Aug-2015 11:28:02 UTC] PHP Stack trace:
+[09-Aug-2015 11:28:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[09-Aug-2015 11:28:02 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[09-Aug-2015 11:28:02 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[09-Aug-2015 11:28:02 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[09-Aug-2015 11:28:02 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[09-Aug-2015 11:28:02 UTC] PHP   6. UsersController->view() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[09-Aug-2015 11:53:10 UTC] PHP Fatal error:  Call to a member function exists() on a non-object in /home/ubuntu/workspace/app/Controller/UsersController.php on line 43
+[09-Aug-2015 11:53:10 UTC] PHP Stack trace:
+[09-Aug-2015 11:53:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[09-Aug-2015 11:53:10 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[09-Aug-2015 11:53:10 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[09-Aug-2015 11:53:10 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
+[09-Aug-2015 11:53:10 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[09-Aug-2015 11:53:10 UTC] PHP   6. UsersController->view() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490

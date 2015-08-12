@@ -1,5 +1,5 @@
 <div class="appointments form">
-	<h2><?php echo __('Add Appointment'); ?></h2>
+	<h2><?php echo __('イベント作成'); ?></h2>
 	<?php
 		echo $this->Form->create('Appointment');
 		echo '<h3>' . $user_name . ' 様</h3>';
@@ -16,9 +16,12 @@
 				'after' => ' 〜'
 		));
 		echo $this->Form->input('order', array(
-				'type' => 'radio',
-				'options' => $orders,
-				'value' => 1
+				'type' => 'select',
+				'options' => $orders
+		));
+		echo $this->Form->input('court', array(
+				'type' => 'select',
+				'options' => $courts
 		));
 		echo $this->Form->end(__('Submit'));
 	?>

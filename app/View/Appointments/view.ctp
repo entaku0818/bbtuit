@@ -26,19 +26,9 @@
 			<?php echo h($appointment['Appointment']['start']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Stop'); ?></dt>
+		<dt><?php echo __('table'); ?></dt>
 		<dd>
-			<?php echo h($appointment['Appointment']['stop']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Court Id'); ?></dt>
-		<dd>
-			<?php echo h($appointment['Appointment']['court_id']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Court'); ?></dt>
-		<dd>
-			<?php echo h($appointment['Appointment']['court']); ?>
+			<?php echo h($appointment['Appointment']['table']); ?>
 			&nbsp;
 		</dd>
 	</dl>

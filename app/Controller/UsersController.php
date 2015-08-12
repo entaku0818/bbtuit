@@ -5,9 +5,10 @@ class UsersController extends AppController {
 	public $components = array('Paginator', 'Session', 'Auth');
 	public $uses = array(
 				'Appointment',
-				'Order'
+				'Order',
+				'User'
 				);
-//public $layout = 'sampleLayout';
+    public $layout = 'sampleLayout';
 	
 	public function beforeFilter() {
 		// 親クラスのbeforeFilterの読み込み
@@ -51,7 +52,7 @@ class UsersController extends AppController {
 		));
 		// オーダー取得
 		$orders = $this->Order->find('list', array(
-			'fields' => 'order'
+			'fields' => 'court'
 		));
 		// データ渡し
 		$this->set('user', $this->User->read(null, $id));

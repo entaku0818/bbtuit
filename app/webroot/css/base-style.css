@@ -737,6 +737,12 @@ pre {
 .code-coverage-results span.result-good {
 	color: #0a0;
 }
+
+/** Elements **/
+#url-rewriting-warning {
+	display:none;
+}
+
 #content {
 	min-width: 800px;
 }
@@ -777,6 +783,8 @@ ul.timeline li {
 .appo-area-p3 {
 	margin-left: 350px;
 }
+.appo00, .appo01, .appo02, .appo03, 
+.appo04, .appo05, .appo06, .appo07, .appo08,
 .appo09, .appo10, .appo11, .appo12, .appo13,
 .appo14, .appo15, .appo16, .appo17, .appo18 {
 	position: absolute;
@@ -786,6 +794,9 @@ ul.timeline li {
 }
 .me {
 	background: blue;
+}
+.appo08 {
+	margin-left: -450px;
 }
 .appo09 {
 	margin-left: 10px;
@@ -816,8 +827,4 @@ ul.timeline li {
 }
 .appo18 {
 	margin-top: 369px;
-}
-/** Elements **/
-#url-rewriting-warning {
-	display:none;
 }

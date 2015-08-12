@@ -7,14 +7,16 @@ class AppointmentsController extends AppController {
 	public $uses = array(
 				'Appointment',
 				'Time',
-				'Order'
+				'Order',
+				'Court',
+				'User'
 				);
 	
 	public function beforeFilter() {
 		// 親クラスのbeforeFilterの読み込み
 		parent::beforeFilter();
 		// 認証不要のページの指定
-		$this->Auth->allow('index');
+		$this->Auth->allow('index', 'view');
 	}
 	
 	public function index($date_id = 0) {
@@ -48,7 +50,7 @@ class AppointmentsController extends AppController {
 			$appo[$i]['Appointment']['height'] = $appo[$i]['Appointment']['order_id'] * 20;
 			if ($appo[$i]['Appointment']['user_id'] == $user['id']) {
 				$appo[$i]['Appointment']['class'] .= ' me';
-				$appo[$i]['Appointment']['name'] = $appo[$i]['User']['name'];
+				$appo[$i]['Appointment']['name'] = $user['name'];
 			} else {
 				$appo[$i]['Appointment']['name'] = 'Already';
 			}
@@ -83,11 +85,14 @@ class AppointmentsController extends AppController {
 		}
 		// オーダー取得
 		$orders = $this->Order->find('list', array(
-			'fields' => 'order'
+			'fields' => 'court'
+		));
+		$courts = $this->Court->find('list', array(
+			'fields' => 'username'
 		));
 		if ($this->request->is('post')) {
 			$data['Appointment']['user_id'] = $this->request->data['Appointment']['user_id'];
-			$data['Appointment']['order_id'] = $this->request->data['Appointment']['order'];
+			$data['Appointment']['order_id'] = $this->request->data['Appointment']['court'];
 			$data['Appointment']['date'] = $this->request->data['Appointment']['date'];
 			$data['Appointment']['start'] = $times[$this->request->data['Appointment']['time']];
 			$data['Appointment']['table'] = 1;
@@ -130,6 +135,7 @@ class AppointmentsController extends AppController {
 		$this->set('strdate', $strdate);
 		$this->set('times', $times);
 		$this->set('orders', $orders);
+		$this->set('courts', $courts);
 		$this->set('link', $link);
 	}
 	
@@ -148,5 +154,12 @@ class AppointmentsController extends AppController {
 		}
 		$this->Session->setFlash(__('Appointment was not deleted'));
 		$this->redirect(array('controller' => 'users', 'action' => 'view/'.$user['id']));
+	}
+	public function view($id = null) {
+		if (!$this->Appointment->exists($id)) {
+			throw new NotFoundException(__('Invalid appointment'));
+		}
+		$options = array('conditions' => array('Appointment.' . $this->Appointment->primaryKey => $id));
+		$this->set('appointment', $this->Appointment->find('first', $options));
 	}
 }

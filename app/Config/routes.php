@@ -27,6 +27,7 @@
 //	Router::connect('/', array('controller' => 'appointments', 'action' => 'index'));
 	Router::connect('/appointments/:action', array('controller' => 'appointments'));
     Router::connect('/users/:action', array('controller' => 'users'));
+    Router::connect('/courts/:action', array('controller' => 'courts'));
 //	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 //     Router::connect('/:action', array('controller' => 'appointments', 'action' => ':action'));
 
