@@ -8,7 +8,7 @@ class UsersController extends AppController {
 				'Order',
 				'User'
 				);
-    public $layout = 'sampleLayout';
+    public $layout = 'login';
 	
 	public function beforeFilter() {
 		// 親クラスのbeforeFilterの読み込み
@@ -18,6 +18,7 @@ class UsersController extends AppController {
 	}
 	
 	public function login() {
+
 		// POST送信なら
 		if($this->request->is('post')) {
 			// ログインOKなら

@@ -9,7 +9,8 @@ class AppointmentsController extends AppController {
 				'Time',
 				'Order',
 				'Court',
-				'User'
+				'User',
+				'Participant'
 				);
 	
 	public function beforeFilter() {
@@ -35,8 +36,7 @@ class AppointmentsController extends AppController {
 			'conditions' => array('date' => $date),
 			'order' => array('start' => 'ASC')
 		));
-		// ログイン状態チェック
-		$user = $this->Auth->user();
+
 		if(empty($user)){
 			$this->set('str', 'Login');
 			$this->set('page', 'login');
@@ -48,12 +48,13 @@ class AppointmentsController extends AppController {
 		for ($i = 0; $i < count($appo); $i++) {
 			$appo[$i]['Appointment']['class'] = 'appo' . substr($appo[$i]['Appointment']['start'], 0, 2);
 			$appo[$i]['Appointment']['height'] = $appo[$i]['Appointment']['order_id'] * 20;
-			if ($appo[$i]['Appointment']['user_id'] == $user['id']) {
+					// ユーザーデータ取得
+			$user = $this->User->find('first', array(
+				'conditions' => array('id' => $appo[$i]['Appointment']['user_id'])
+				));
 				$appo[$i]['Appointment']['class'] .= ' me';
-				$appo[$i]['Appointment']['name'] = $user['name'];
-			} else {
-				$appo[$i]['Appointment']['name'] = 'Already';
-			}
+				$appo[$i]['Appointment']['name'] = $user['User']['name'] ;
+
 		}
 		// データ渡し
 		$this->set('appointments', $appo);
@@ -139,6 +140,45 @@ class AppointmentsController extends AppController {
 		$this->set('link', $link);
 	}
 	
+	public function join($id = null) {
+
+		$this->loadModel('Participant');
+		$this->Appointment->id = $id;
+		$user = $this->Auth->user();
+       	// 登録する内容を設定
+		$data = array('Participant' => array('participant_id' => $id, 'user_id' => $user['id'], 'name' => $user['name']));
+		// 登録する項目（フィールド指定）
+		$fields = array('participant_id', 'user_id', 'name');
+		
+		// 参加人数が満員であれば、
+         $pending = $this->Participant->find('count', array(
+        'conditions' => array('Participant.participant_id' => $id)
+		));
+        
+        //既に参加済みであればエラー
+        $repetition = $this->Participant->find('count', array(
+        'conditions' => array('Participant.participant_id' => $id),
+        'conditions' => array('Participant.user_id' => $user['id'])
+		));
+
+  //      if ($repetition > 0) {
+   //     	$this->Session->setFlash(__('既にこのイベントに参加しています！'));
+    //    	$this->redirect(array('action' => 'view', $id));
+    //    }
+        
+        
+		if ($this->Participant->save($data)) {
+		// 新規登録
+		$this->Participant->save($data, false, $fields);
+		$this->Session->setFlash(__('参加完了しました！'));
+		$this->redirect(array('controller' => 'appointments', 'action' => 'view/'.$id));
+		}else{
+		$this->Session->setFlash(__('参加できませんでした・・・'));
+		}
+
+	}
+	
+	
 	public function delete($id = null) {
 		if (!$this->request->is('post')) {
 			throw new MethodNotAllowedException();
@@ -160,6 +200,13 @@ class AppointmentsController extends AppController {
 			throw new NotFoundException(__('Invalid appointment'));
 		}
 		$options = array('conditions' => array('Appointment.' . $this->Appointment->primaryKey => $id));
+		
+
+
+		
 		$this->set('appointment', $this->Appointment->find('first', $options));
+		$options = array('conditions' => array('Participant.participant_id' => $id));
+		$this->set('participant', $this->Participant->find('all', $options));
+
 	}
 }

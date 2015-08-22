@@ -689,3 +689,216 @@
 [09-Aug-2015 11:53:10 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:193
 [09-Aug-2015 11:53:10 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
 [09-Aug-2015 11:53:10 UTC] PHP   6. UsersController->view() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[13-Aug-2015 04:24:10 UTC] PHP Fatal error:  Can't use function return value in write context in /home/ubuntu/workspace/app/View/Appointments/view.ctp on line 35
+[13-Aug-2015 04:24:10 UTC] PHP Stack trace:
+[13-Aug-2015 04:24:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[13-Aug-2015 04:24:10 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[13-Aug-2015 04:24:10 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[13-Aug-2015 04:24:10 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[13-Aug-2015 04:24:10 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[13-Aug-2015 04:24:10 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[13-Aug-2015 04:24:10 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[15-Aug-2015 12:13:33 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/app/Controller/AppointmentsController.php on line 166
+[15-Aug-2015 12:13:33 UTC] PHP Stack trace:
+[15-Aug-2015 12:13:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[15-Aug-2015 12:13:33 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[15-Aug-2015 12:13:33 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:158
+[15-Aug-2015 12:13:33 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:235
+[15-Aug-2015 12:13:33 UTC] PHP   5. class_exists() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:266
+[15-Aug-2015 12:13:33 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:266
+[15-Aug-2015 12:13:33 UTC] PHP   7. App::load() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:266
+[15-Aug-2015 12:14:00 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/app/Controller/AppointmentsController.php on line 166
+[15-Aug-2015 12:14:00 UTC] PHP Stack trace:
+[15-Aug-2015 12:14:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[15-Aug-2015 12:14:00 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[15-Aug-2015 12:14:00 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:158
+[15-Aug-2015 12:14:00 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:235
+[15-Aug-2015 12:14:00 UTC] PHP   5. class_exists() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:266
+[15-Aug-2015 12:14:00 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:266
+[15-Aug-2015 12:14:00 UTC] PHP   7. App::load() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:266
+[18-Aug-2015 04:50:58 UTC] PHP Parse error:  syntax error, unexpected ''height'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 42
+[18-Aug-2015 04:50:58 UTC] PHP Stack trace:
+[18-Aug-2015 04:50:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 04:50:58 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 04:50:58 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 04:50:58 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 04:50:58 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 04:50:58 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 04:50:58 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 04:53:28 UTC] PHP Parse error:  syntax error, unexpected ''height'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 42
+[18-Aug-2015 04:53:28 UTC] PHP Stack trace:
+[18-Aug-2015 04:53:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 04:53:28 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 04:53:28 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 04:53:28 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 04:53:28 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 04:53:28 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 04:53:28 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 05:23:50 UTC] PHP Parse error:  syntax error, unexpected ''height'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 42
+[18-Aug-2015 05:23:50 UTC] PHP Stack trace:
+[18-Aug-2015 05:23:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 05:23:50 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 05:23:50 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 05:23:50 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 05:23:50 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 05:23:50 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 05:23:50 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 05:26:23 UTC] PHP Parse error:  syntax error, unexpected ''height'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 42
+[18-Aug-2015 05:26:23 UTC] PHP Stack trace:
+[18-Aug-2015 05:26:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 05:26:23 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 05:26:23 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 05:26:23 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 05:26:23 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 05:26:23 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 05:26:23 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 05:49:20 UTC] PHP Parse error:  syntax error, unexpected 'Court' (T_STRING), expecting ')' in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 48
+[18-Aug-2015 05:49:20 UTC] PHP Stack trace:
+[18-Aug-2015 05:49:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 05:49:20 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 05:49:20 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 05:49:20 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 05:49:20 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 05:49:20 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 05:49:20 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 05:49:46 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 49
+[18-Aug-2015 05:49:46 UTC] PHP Stack trace:
+[18-Aug-2015 05:49:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 05:49:46 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 05:49:46 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 05:49:46 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 05:49:46 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 05:49:46 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 05:49:46 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 05:50:10 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 49
+[18-Aug-2015 05:50:10 UTC] PHP Stack trace:
+[18-Aug-2015 05:50:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 05:50:10 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 05:50:10 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 05:50:10 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 05:50:10 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 05:50:10 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 05:50:10 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 10:56:22 UTC] PHP Parse error:  syntax error, unexpected '';'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 7
+[18-Aug-2015 10:56:22 UTC] PHP Stack trace:
+[18-Aug-2015 10:56:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 10:56:22 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 10:56:22 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 10:56:22 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 10:56:22 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 10:56:22 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 10:56:22 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 10:57:01 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 9
+[18-Aug-2015 10:57:01 UTC] PHP Stack trace:
+[18-Aug-2015 10:57:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 10:57:01 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 10:57:01 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 10:57:01 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 10:57:01 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 10:57:01 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 10:57:01 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 11:35:13 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 5
+[18-Aug-2015 11:35:13 UTC] PHP Stack trace:
+[18-Aug-2015 11:35:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 11:35:13 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 11:35:13 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 11:35:13 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 11:35:13 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 11:35:13 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 11:35:13 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 11:36:29 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 5
+[18-Aug-2015 11:36:29 UTC] PHP Stack trace:
+[18-Aug-2015 11:36:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 11:36:29 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 11:36:29 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 11:36:29 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 11:36:29 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 11:36:29 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 11:36:29 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 11:37:02 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 5
+[18-Aug-2015 11:37:02 UTC] PHP Stack trace:
+[18-Aug-2015 11:37:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 11:37:02 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 11:37:02 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 11:37:02 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 11:37:02 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 11:37:02 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 11:37:02 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 11:51:09 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 7
+[18-Aug-2015 11:51:09 UTC] PHP Stack trace:
+[18-Aug-2015 11:51:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 11:51:09 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 11:51:09 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 11:51:09 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 11:51:09 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 11:51:09 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 11:51:09 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 14:08:17 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 57
+[18-Aug-2015 14:08:17 UTC] PHP Stack trace:
+[18-Aug-2015 14:08:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 14:08:17 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 14:08:17 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 14:08:17 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 14:08:17 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 14:08:17 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 14:08:17 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 14:08:52 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 57
+[18-Aug-2015 14:08:52 UTC] PHP Stack trace:
+[18-Aug-2015 14:08:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 14:08:52 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 14:08:52 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 14:08:52 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 14:08:52 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 14:08:52 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 14:08:52 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 14:09:44 UTC] PHP Parse error:  syntax error, unexpected '確認画面文字' (T_STRING), expecting ')' in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 58
+[18-Aug-2015 14:09:44 UTC] PHP Stack trace:
+[18-Aug-2015 14:09:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 14:09:44 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 14:09:44 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 14:09:44 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 14:09:44 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 14:09:44 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 14:09:44 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 14:10:15 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/lib/Cake/View/View.php on line 867
+[18-Aug-2015 14:10:15 UTC] PHP Stack trace:
+[18-Aug-2015 14:10:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 14:10:15 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 14:10:15 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 14:10:15 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 14:10:15 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 14:10:15 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 14:10:15 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 14:10:15 UTC] PHP   8. include() /home/ubuntu/workspace/lib/Cake/View/View.php:961
+[18-Aug-2015 14:10:15 UTC] PHP   9. View->__get() /home/ubuntu/workspace/lib/Cake/View/View.php:58
+[18-Aug-2015 14:10:15 UTC] PHP  10. View->__set() /home/ubuntu/workspace/lib/Cake/View/View.php:849
+[18-Aug-2015 14:14:38 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/lib/Cake/View/View.php on line 867
+[18-Aug-2015 14:14:38 UTC] PHP Stack trace:
+[18-Aug-2015 14:14:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 14:14:38 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 14:14:38 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 14:14:38 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 14:14:38 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 14:14:38 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 14:14:38 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 14:14:38 UTC] PHP   8. include() /home/ubuntu/workspace/lib/Cake/View/View.php:961
+[18-Aug-2015 14:14:38 UTC] PHP   9. View->__get() /home/ubuntu/workspace/lib/Cake/View/View.php:58
+[18-Aug-2015 14:14:38 UTC] PHP  10. View->__set() /home/ubuntu/workspace/lib/Cake/View/View.php:849
+[18-Aug-2015 14:21:41 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 58
+[18-Aug-2015 14:21:41 UTC] PHP Stack trace:
+[18-Aug-2015 14:21:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 14:21:41 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 14:21:41 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 14:21:41 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 14:21:41 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 14:21:41 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 14:21:41 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
+[18-Aug-2015 14:31:20 UTC] PHP Parse error:  syntax error, unexpected '$gmap_url' (T_VARIABLE), expecting ')' in /home/ubuntu/workspace/app/View/Courts/view.ctp on line 58
+[18-Aug-2015 14:31:20 UTC] PHP Stack trace:
+[18-Aug-2015 14:31:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[18-Aug-2015 14:31:20 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:118
+[18-Aug-2015 14:31:20 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:167
+[18-Aug-2015 14:31:20 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:200
+[18-Aug-2015 14:31:20 UTC] PHP   5. View->render() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:960
+[18-Aug-2015 14:31:20 UTC] PHP   6. View->_render() /home/ubuntu/workspace/lib/Cake/View/View.php:473
+[18-Aug-2015 14:31:20 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/lib/Cake/View/View.php:923
